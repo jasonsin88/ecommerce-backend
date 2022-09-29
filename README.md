@@ -30,9 +30,6 @@ Install dependencies
 ```terminal
 npm i
 ``` 
-```terminal
-npm install express sequelize mysql2
-```
 Open up MySQL shell and input 
 ```terminal
 source db/schema.sql
@@ -54,9 +51,9 @@ Open up Insomnia core to GET, POST, PUT and DELETE from different routes.
 ## Usage 
 This application will allow users to view, add, edit, and delete categories, products, and tags.
 
-View video to see MySQL walk through via [XXX](LINK)<br>
-View video to walk through of the API routes. [XXX](LINK)<br>
-View video to see Insomnia walk through via [XXX](LINK)
+[View video](https://youtu.be/z7okIszuqdI) to see walk through of MySQL.<br>
+[View videos](https://youtube.com/playlist?list=PLIBybC2oQOH3C0f4Vai1x5BAQxyhZVPJv) to see walk through of the GET commands.<br>
+[View videos]() to see walk through of POST/PUT/DELETE commands.
 
 ## License 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)

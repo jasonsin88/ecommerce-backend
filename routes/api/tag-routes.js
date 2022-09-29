@@ -29,7 +29,7 @@ router.get('/:id', (req, res) => {
   Tag.findOne(
     {
       where:{
-        ide: req.params.id
+        id: req.params.id
       },
       include: [
         {
