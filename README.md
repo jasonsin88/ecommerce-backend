@@ -53,7 +53,7 @@ This application will allow users to view, add, edit, and delete categories, pro
 
 [View video](https://youtu.be/z7okIszuqdI) to see walk through of MySQL.<br>
 [View videos](https://youtube.com/playlist?list=PLIBybC2oQOH3C0f4Vai1x5BAQxyhZVPJv) to see walk through of the GET commands.<br>
-[View videos]() to see walk through of POST/PUT/DELETE commands.
+[View videos](https://youtube.com/playlist?list=PLIBybC2oQOH23_Ymxr0AYHg5RSTeXxeR0) to see walk through of POST/PUT/DELETE commands.
 
 ## License 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
