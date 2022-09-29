@@ -1,1 +1,63 @@
-# ecommerce-backend
+# E-Commerce Backend (Object-Relational Mapping)
+
+## Description 
+This project is the creation of the back end for an e-commerce site. This application used Express.js API and Sequelize to interact with a MySQL database. This application displays creation of database using mySQL with models and associations. Then demonstrates the API Routes to perform RESTful CRUD operations displayed in my walk through videos.
+
+## Table of Contents
+* [Technologies](#technologies)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+
+## Technologies
+Project is created with 
+* [Javascript](https://www.javascript.com/)
+* [Node.js](https://nodejs.org/en/)
+* [Sequelize](https://www.npmjs.com/package/sequelize)
+* [MySQL2](https://www.npmjs.com/package/mysql2)
+* [Express](https://www.npmjs.com/package/express)
+* [Dotenv](https://www.npmjs.com/package/dotenv)
+
+## Installation 
+To get started clone this repository using 
+<br>
+```terminal
+git clone git@github.com:jasonsin88/ecommerce-backend.git
+```
+Both Node.js and MySQL must be installed on your computer.
+
+Install dependencies 
+```terminal
+npm i
+``` 
+```terminal
+npm install express sequelize mysql2
+```
+Open up MySQL shell and input 
+```terminal
+source db/schema.sql
+```
+and 
+```terminal
+use ecommerce_db
+```
+Then quit MySQL shell and input the following in your terminal
+```terminal
+npm run seed
+```
+to start running application simply input 
+```terminal
+node server.js
+```
+Open up Insomnia core to GET, POST, PUT and DELETE from different routes.
+
+## Usage 
+This application will allow users to view, add, edit, and delete categories, products, and tags.
+
+View video to see MySQL walk through via [XXX](LINK)<br>
+View video to walk through of the API routes. [XXX](LINK)<br>
+View video to see Insomnia walk through via [XXX](LINK)
+
+## License 
+![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+This project is license under MIT
